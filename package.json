@@ -1,0 +1,35 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "reveal-md": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "reveal-md --css style.css ./index.md",
+    "config": "reveal-md --css style.css ./configuracion-inicial.md",
+    "web": "reveal-md index.md --static --static-dirs=img",
+    "1": "reveal-md --css style.css ./1-proyecto-hola-usuario.md",
+    "2": "reveal-md --css style.css ./2-proyecto-apuntes.md",
+    "3": "reveal-md --css style.css ./3-proyecto-libreria.md",
+    "4": "reveal-md --css style.css ./4-app-notas.md",
+    "5": "reveal-md --css style.css ./5-express.md",
+    "6": "reveal-md --css style.css ./6-api.md",
+    "7": "reveal-md --css style.css ./7-auth.md",
+    "8": "reveal-md --css style.css ./8-websockets.md",
+    "9": "reveal-md --css style.css ./9-promises.md",
+    "print": "reveal-md --theme white index.md --print index.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda99/curso-node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanda99/curso-node-js/issues"
+  },
+  "homepage": "https://github.com/juanda99/curso-node-js#readme"
+}
